@@ -176,7 +176,7 @@ function displayThirdDay(api) {
   addClasses(itemHeader, "item-header d-flex justify-content-center p-2");
   // creating the span that will contain the day text
   let day = document.createElement("span");
-  let thisDay = date.getDay() == weekDays.length + 1 ? date.getDay() - (date.getDay() + 1)
+  let thisDay = date.getDay() == weekDays.length + 1 ? date.getDay() - (date.getDay() + 1);
   day.innerText = weekDays[date.getDay() + 2];
 
   //compiling the day span in the header
